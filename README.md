@@ -31,3 +31,14 @@
     - Measurement level.
 - Test program level is effectively remotely operating the MK system is a traditional sense.
 - Measurement level is directly using the measurement software, and then handling everything in a custom backend written by the customer.
+## Case Study: Siemens Magnets for MRI Machines
+- They have a SAP based system that they needed to integrate with MK.
+- Custom software was written called Middleman that was responsible for managing the communication between SAP and MK API.
+- Allowed for the MK system integrated seamlessly into their workflow.
+```
+Could do with more details to flesh this out.
+```
+## Case Study: Airbus
+```
+Awaiting content from Dennis to flesh this out.
+``` 
