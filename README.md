@@ -22,6 +22,8 @@
     - Amazon.
     - eBay.
     - Reddit.
+    - AWS.
+    - Azure.
 ## Why Does MK Test have an API?
 - It is used to allow for larger setups to communicate between the hub and the satellites.
 - Allows for any industry to implement the MK testing equipment seamlessly into their existing software solution.
