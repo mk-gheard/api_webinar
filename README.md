@@ -18,9 +18,10 @@
     - PUT - Replace an existing resource.
     - DELETE - Remove a resource from the server.
 - Example Rest APIs:
-    - Twitter.
+    - X (Formerly known as Twitter).
     - Amazon.
     - eBay.
+    - Reddit.
 ## Why Does MK Test have an API?
 - It is used to allow for larger setups to communicate between the hub and the satellites.
 - Allows for any industry to implement the MK testing equipment seamlessly into their existing software solution.
