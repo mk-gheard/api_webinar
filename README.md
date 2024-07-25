@@ -37,10 +37,6 @@
 - They have a SAP based system that they needed to integrate with MK.
 - Custom software was written called Middleman that was responsible for managing the communication between SAP and MK API.
 - Allowed for the MK system integrated seamlessly into their workflow.
-```
-Could do with more details to flesh this out.
-```
 ## Case Study: Airbus
-```
-Awaiting content from Dennis to flesh this out.
-``` 
+- Airbus have large networks of connected test systems that all report back to a central controlling unit with the API exposed.
+- Similiar to Siemens, they then have an application layer that pulls all data and handles that in their systems.
