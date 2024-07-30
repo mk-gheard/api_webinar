@@ -1,5 +1,3 @@
-# Web API Slide Notes
-
 ## What is an API
 - API stands for Application Programming Interface.
 - It is a way of allowing two or more applications to communicate and share data.
