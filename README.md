@@ -45,6 +45,10 @@
 ## Case Study: Airbus
 - Airbus have large networks of connected test systems that all report back to a central controlling unit with the API exposed.
 - Similiar to Siemens, they then have an application layer that pulls all data and handles that in their systems.
+- MK created an interface that draws data from their EMS (Engineering Management System).
+- APG creates the test programs automatically.
+- API then triggers the test programs to run and then uploads the results from those test runs back into the Airbus EMS.
+- At any point, they can create full tests, partial tests, a test of failed points only and then have them automatically handled through the API & APG working in conjunction.
 ## Case Study: Siemens Magnets for MRI Machines
 - In process of implementation. Not yet complete.
 - They have a SAP based system that they needed to integrate with MK.
