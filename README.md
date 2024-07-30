@@ -1,20 +1,17 @@
 ## What is an API
 - API stands for Application Programming Interface.
-- It is a way of allowing two or more applications to communicate and share data.
-- Some of the most common API's protocols / conventions are:
-    - SOAP (Simple Object Access Protocol).
-    - REST (Representational State Transfer).
-    - GraphQL.
+- Set of rules and protocols that allows one software application to interact with another.
+- APIs serve as an interface that enables different software systems to communicate with each other. They define the way requests are made and how responses should be formatted.
+- Defines the methods and data structures that developers can use to communicate with the operating system, libraries, or other services.
+- APIs provide an abstraction layer, which hides the underlying complexity of operations, allowing developers to perform actions without needing to understand how the internal processes work.
+- Types of API:
+    - Web APIs: These are accessed over a network using HTTP/HTTPS and are commonly used for web services. Examples include RESTful APIs and SOAP APIs.
+    - Library APIs: These are provided by software libraries to allow applications to use their functions.
+    - Operating System APIs: These allow applications to interact with the operating system.
 ## REST API
-- Operates on the HTTP/s protocol, the protocol that underpins the web.
-- Most commonly used alongside JSON to transmit data in the request body.
-- Request / Response body can also be HTML, Plain Text, XML or binary data.
-- The following HTTP methods are used to perform actions on the server:
-    - GET - Get a resource from a server. This could be a single resource, or a collection of resources.
-    - POST - Add a resource to a server. This could be a single resource, or a collection of resources.
-    - PATCH - Update an existing resource.
-    - PUT - Replace an existing resource.
-    - DELETE - Remove a resource from the server.
+- A REST API, or Representational State Transfer API, is a type of web API that adheres to the principles of REST, an architectural style for designing networked applications.
+- Key REST Characteristics:
+    - 
 - Example Rest APIs:
     - X (Formerly known as Twitter).
     - Amazon.
