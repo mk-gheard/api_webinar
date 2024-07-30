@@ -11,7 +11,21 @@
 ## REST API
 - A REST API, or Representational State Transfer API, is a type of web API that adheres to the principles of REST, an architectural style for designing networked applications.
 - Key REST Characteristics:
-    - 
+    - Stateless: Each API call from the client to the server must contain all the information needed to understand and process the request. The server does not store any client context between requests.
+    - Client-Server Architecture: The client and server operate independently, with the client responsible for the user interface and the server managing data storage and processing. This separation allows for 
+      more scalability and flexibility in development.
+    - Uniform Interface: REST APIs use a consistent and standard interface for communication, typically relying on HTTP methods (such as GET, POST, PUT, DELETE) and standard URL structures.
+    - Resource-Based: REST APIs focus on resources, which are any kind of object, data, or service that can be accessed by the client. Each resource is identified by a unique URL.
+    - Representation of Resources: Resources can have multiple representations, such as JSON, XML, or HTML. The client can specify which representation it prefers using HTTP headers.
+- Key Components of REST:
+    - Endpoint: The URL where the API can be accessed. Each endpoint corresponds to a specific resource or collection of resources.
+    - HTTP Methods: Standard methods used in RESTful interactions:
+        - GET: Retrieve information about a resource.
+        - POST: Create a new resource.
+        - PUT: Update an existing resource.
+        - DELETE: Remove a resource.
+    - Request/Response Headers: Used to pass additional information with the request or response, such as content type and authentication credentials.
+    - Request/Response Body: The data sent to or received from the server, often in JSON or XML format.
 - Example Rest APIs:
     - X (Formerly known as Twitter).
     - Amazon.
